@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=640">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Athiti">
+<style>
+body, html,h1,h2,h3,h4,h5,h6{
+    height: 100%;
+    font-family: "Athiti", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("q.jpg");
+    min-height: 70%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-pale-red">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-pale-red">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about us" class="w3-button w3-block ww3-pale-red">ABOUT US</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#diary" class="w3-button w3-block w3-pale-red">DIARY</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact us" class="w3-button w3-block w3-pale-red">CONTACT US</a>
+    </div>
+  </div>
+</div>
+<!-- Header with image -->
+<header class="bgimg w3-display-container " id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+  </div>
+<!-- About Container -->
+<div class="w3-container" id="about us">
+  <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h3>
+      <div class=w3-center>
+        <img src ="รูปหยง.jpg"style="width:50%">
+      </div>
+    <h4>ชื่อ : นนท์นภัส สุคนธปฏิภาค <br>ชื่อเล่น : ตันหยง<br> อายุ 21 ปี <br> คณะ : วิทยากรจัดการ สาขา ระบบสารสนเทศ</h4>
+      <div class=w3-center>
+        <img src ="a.jpg"style="width:50%">
+      </div>
+    <h4>ชื่อ : ภาริยากรณ์ ชวัญเจริญ <br>ชื่อเล่น : เนย์<br> อายุ 21 ปี <br> คณะ : วิทยากรจัดการ สาขา ระบบสารสนเทศ</h4>
+  </div>
+</div>
